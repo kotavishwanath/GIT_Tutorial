@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEp-eg-AAi">
-                                <frame key="frameInset" minX="40.53%" minY="47.68%" width="18.93%" height="4.50%"/>
+                                <frame key="frameInset" minX="40.40%" minY="47.68%" width="18.93%" height="4.50%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click Here"/>
                             </button>
@@ -29,6 +29,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="vMX-du-aWX">
+            <objects>
+                <viewController id="FoW-wK-t7G" customClass="MapViewController" customModule="GITXcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cQQ-H5-Otj"/>
+                        <viewControllerLayoutGuide type="bottom" id="fCp-ex-jRA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tIp-gr-qZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9Ts-fS-eHE">
+                                <frame key="frameInset" minX="0.0%" minY="3.00%" width="100.00%" height="67.32%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zKm-0F-0Pu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="762" y="38"/>
         </scene>
     </scenes>
 </document>

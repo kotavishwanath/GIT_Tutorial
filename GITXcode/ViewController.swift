@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("Hello Git")
+        
+        let mapVC = MapViewController()
+        print(mapVC)
     }
 
     override func didReceiveMemoryWarning() {
